@@ -1,0 +1,32 @@
+{
+  "name": "n3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,json,njk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "html-to-text": "^4.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.7",
+    "nodemailer": "^4.6.7",
+    "raven": "^2.6.3",
+    "require-dir": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "nodemon": "^1.18.3"
+  }
+}
